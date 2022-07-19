@@ -1,0 +1,109 @@
+
+
+/* THIS SECTION IS FOR THE WHOLE PAGE */
+
+body {
+    background-color: #F9EAD3;
+}
+
+
+#mainHeader {
+    font-size: 2em;
+    text-align: center;
+    color: #F2B022;
+    border-top: solid;
+    border-bottom: solid;
+    padding: 0.5em;
+    font-style: ;
+    background-color: #FCF8ED;
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+
+/* THIS SECTION IS FOR THE LOCATIONS COLUMN */
+
+.locations_header {
+    border-bottom: solid;
+    border-color: #F2B022; 
+    border-width: thin; 
+    padding-left: 4em;
+    padding-right: 4em; 
+  
+}
+.locations {
+    text-align: center; 
+    display: flex;        /* must have display set to flex to use flex-direction */
+    flex-direction: column;   /* default flex-direction is in rows */
+    justify-content: space-between;
+}
+
+.loc {
+    padding-top: 3em;
+    Font-size: 1.5em;
+}
+
+.quote {
+    padding-bottom: 3em;
+}
+
+
+/* THIS SECTION IS FOR THE FISH COLUMN */
+
+
+.name {   
+    text-align: center;
+    font-weight: bold;
+}
+
+.all_fish {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.fish_header {
+    border-bottom: solid;
+    border-color: #F2B022; 
+    border-width: thin; 
+    padding-left: 1em;
+    padding-right: 1em; 
+    
+}
+
+
+.fish {
+    padding: 1em;
+
+}
+.list {
+    border: solid;
+    text-align: left;
+    background-color: #FCF8ED; 
+    border-width: thin;
+    padding: 0.25em;
+}
+
+/* THIS SECTION IS FOR THE NOTES COLUMN */
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.notes_header {
+    border-bottom: solid;
+    border-color: #F2B022; 
+    border-width: thin; 
+    padding-left: 1em;
+    padding-right: 1em; 
+}
